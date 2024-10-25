@@ -42,8 +42,3 @@ changeValue.addEventListener('mouseover', () => {
     changeValue.innerHTML = "Software";
   }, 2000);
 });
-changeValue.addEventListener('mouseout', () => {
-  setInterval(() => {
-    changeValue.innerHTML = "Web";
-  }, 2000);
-});
