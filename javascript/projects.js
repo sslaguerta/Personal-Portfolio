@@ -1,13 +1,13 @@
 const projects = [{
   id: 'card1',
+  image: 'images/to-do.png',
+  href: 'https://syrilldex.github.io/ToDoProject/',
+  title: 'To-Do List with JavaScript'
+},{
+  id: 'card2',
   image: 'images/P1.png',
   href: 'https://startling-marigold-daaacb.netlify.app/',
   title: 'Real Estate website'
-},{
-  id: 'card2',
-  image: 'images/P2.png',
-  href: 'https://syrilldex.github.io/ROTG-website/',
-  title: 'Rice on the Go(Future business website)'
 },{
   id: 'card3',
   image: 'images/P3.png',
