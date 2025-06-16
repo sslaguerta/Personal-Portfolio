@@ -1,118 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Syrill Dex Laguerta | Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-  
-</head>
-<body>
-  <nav id="nav-div">
-    <a class="logo-link" href="https://www.linkedin.com/in/syrill-dex-laguerta-52a1b22bb/"><img src="images/LOGO.png" alt="SD"></a>
-    <div class="logo-name">SYRILL DEX LAGUERTA</div>
-    <input type="checkbox" id="sidebar-active">
-    <label for="sidebar-active" class="open-sidebar-button">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-269.23v-40h640v40H160ZM160-460v-40h640v40H160Zm0-190.77v-40h640v40H160Z"/></svg>
-    </label>
-
-    <label id="overlay" for="sidebar-active"></label>
-    <div class="links-container">
-      <label for="sidebar-active" class="close-sidebar-button">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M256-227.69 227.69-256l224-224-224-224L256-732.31l224 224 224-224L732.31-704l-224 224 224 224L704-227.69l-224-224-224 224Z"/></svg>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syrill Dex Laguerta | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav id="nav-div">
+      <a
+        class="logo-link"
+        href="https://www.linkedin.com/in/syrill-dex-laguerta-52a1b22bb/"
+        ><img src="images/LOGO.png" alt="SD"
+      /></a>
+      <div class="logo-name">SYRILL DEX LAGUERTA</div>
+      <input type="checkbox" id="sidebar-active" />
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#e8eaed"
+        >
+          <path
+            d="M160-269.23v-40h640v40H160ZM160-460v-40h640v40H160Zm0-190.77v-40h640v40H160Z"
+          />
+        </svg>
       </label>
 
-      <a href="#home" class="a1">Home</a>
-      <a href="#about" class="a1">About Me</a>
-      <a href="#projects" class="a1">Projects</a>
-      <a href="#contact" class="a1">Contact</a>
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e8eaed"
+          >
+            <path
+              d="M256-227.69 227.69-256l224-224-224-224L256-732.31l224 224 224-224L732.31-704l-224 224 224 224L704-227.69l-224-224-224 224Z"
+            />
+          </svg>
+        </label>
 
-      <div class="side">
-        <a href="#home"><i class="fa-solid fa-house"></i></a>
-        <a href="#about"><i class="fa-solid fa-user"></i></a>
-        <a href="#projects"><i class="fa-solid fa-pencil"></i></a>
-        <a href="#contact"><i class="fa-solid fa-square-phone"></i></a>
-      </div>
-    </div>
-  </nav>
-  <section class="quick-intro" id="home">
-    <div class="intro-text">
-      <h2>Hello there! 👋<br>I am <span>Syrill Dex Laguerta</span></h2>
-      <p>a Computer Engineering graduate at Cavite State University. An aspiring :</p> <br>
-      <h1 class="js-change-value">WEB<p class="add">FRONT END <br> BACK END </p></h1>
-      <h1>DEVELOPER</h1>
-    </div>
-    <div class="intro-profile">
-      <div class="img1" id="img1"><img src="images/Profile.jpg" alt="Profile"></div>
-      <div class="img2"><img src="images/Profile2.jpg" alt="Profile"></div>
-    </div>
-  </section>
-  <section class="about-me" id="about">
-    <div class="heading"><h1>Know more about me!</h1><div class="line"></div></div>
-    <div class="cards-container js-cards-container hidden">
-    </div>
-    <div class="tech-title">
-      <h3>Technology</h3>
-      <div class="card-line"></div>
-    </div>
-    <div class="tech">
-        <div class="mini-card">
-          <img src="./svg/html.svg">
-          <img src="./svg/css.svg">
-          <img src="./svg/javascript.svg">
-          <img src="./svg/php.svg">
-          <img src="./svg/mysql.svg">
-          <img src="./svg/python.svg">
-          <img src="./svg/java.svg">
-          <img src="./svg/react.svg">
-          <img src="./svg/wordpress.svg">
-          <img src="./svg/github.svg">
-          <img src="./svg/git.svg">
-          <img src="./svg/vscode.svg">
-          <img src="./svg/chatgpt.svg">
-          <img src="./svg/figma.svg">
-          <img src="./svg/canva.svg">
+        <a href="#home" class="a1">Home</a>
+        <a href="#about" class="a1">About Me</a>
+        <a href="#projects" class="a1">Projects</a>
+        <a href="#contact" class="a1">Contact</a>
+
+        <div class="side">
+          <a href="#home"><i class="fa-solid fa-house"></i></a>
+          <a href="#about"><i class="fa-solid fa-user"></i></a>
+          <a href="#projects"><i class="fa-solid fa-pencil"></i></a>
+          <a href="#contact"><i class="fa-solid fa-square-phone"></i></a>
         </div>
-    </div>
-    
-  </section>
-  <section class="projects" id="projects">
-    <div class="projects-div">
-      <div class="projects-title">PROJECTS</div>
-    </div>
-    <div class="projects-content">
-        <ul id="cards" class="js-cards">
-        </ul>
-    </div>
-  </section>
-  <section class="contact" id="contact">
-      <div class="icons js-icons">
       </div>
-      <div class="footer">
-        <h3> <i class="fa-solid fa-phone"></i> Call me +639507408329</h3>
-        <p><i class="fa-regular fa-copyright"></i> Designed and developed by Syrill Dex Laguerta</p>
+    </nav>
+    <section class="quick-intro" id="home">
+      <div class="intro-text">
+        <h2>Hello there! 👋<br />I am <span>Syrill Dex Laguerta</span></h2>
         <p>
-          No copyright infringement intended. I do not own some images above. The images belongs to the rightful owners. <i class="fa-solid fa-triangle-exclamation"></i>
+          a Computer Engineering graduate at Cavite State University. An
+          aspiring :
+        </p>
+        <br />
+        <h1 class="js-change-value">
+          WEB
+          <p class="add">
+            FRONT END <br />
+            BACK END
+          </p>
+        </h1>
+        <h1>DEVELOPER</h1>
+      </div>
+      <div class="intro-profile">
+        <div class="img1" id="img1">
+          <img src="images/Profile.jpg" alt="Profile" />
+        </div>
+        <div class="img2"><img src="images/Profile2.jpg" alt="Profile" /></div>
+      </div>
+    </section>
+    <section class="about-me" id="about">
+      <div class="heading">
+        <h1>Know more about me!</h1>
+        <div class="line"></div>
+      </div>
+      <div class="cards-container js-cards-container hidden"></div>
+      <div class="tech-title">
+        <h3>Technology</h3>
+        <div class="card-line"></div>
+      </div>
+      <div class="tech">
+        <div class="mini-card">
+          <img src="./svg/html.svg" />
+          <img src="./svg/css.svg" />
+          <img src="./svg/javascript.svg" />
+          <img src="./svg/php.svg" />
+          <img src="./svg/mysql.svg" />
+          <img src="./svg/python.svg" />
+          <img src="./svg/java.svg" />
+          <img src="./svg/react.svg" />
+          <img src="./svg/wordpress.svg" />
+          <img src="./svg/github.svg" />
+          <img src="./svg/git.svg" />
+          <img src="./svg/vscode.svg" />
+          <img src="./svg/chatgpt.svg" />
+          <img src="./svg/figma.svg" />
+          <img src="./svg/canva.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="projects-div">
+        <div class="projects-title">PROJECTS</div>
+      </div>
+      <div class="projects-content">
+        <ul id="cards" class="js-cards"></ul>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="icons js-icons"></div>
+      <div class="footer">
+        <h3><i class="fa-solid fa-phone"></i> Call me +639507408329</h3>
+        <p>
+          <i class="fa-regular fa-copyright"></i> Designed and developed by
+          Syrill Dex Laguerta
+        </p>
+        <p>
+          No copyright infringement intended. I do not own some images above.
+          The images belongs to the rightful owners.
+          <i class="fa-solid fa-triangle-exclamation"></i>
         </p>
       </div>
       <div>
-        <button  class="top-button" id="top-button" onclick="topFunction();">
+        <button class="top-button" id="top-button" onclick="topFunction();">
           <i class="fa-solid fa-chevron-up"></i>
         </button>
       </div>
-  </section>
+    </section>
 
-  <script src="javascript/minicard-copy.js"></script>
-  <script src="javascript/about.js"></script>
-  <script src="javascript/projects.js"></script>
-  <script src="javascript/contact.js"></script>
-  <script src="javascript/index.js"></script>
-  <script src="javascript/scrollAnimation.js"></script>
+    <script src="javascript/minicard-copy.js"></script>
+    <script src="javascript/about.js"></script>
+    <script src="javascript/projects.js"></script>
+    <script src="javascript/contact.js"></script>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/scrollAnimation.js"></script>
 
-  <!-- upload to github -->
-</body>
+    <!-- upload to github -->
+    <!-- Clone repo for bootstrap excercise -->
+  </body>
 </html>
